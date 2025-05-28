@@ -67,7 +67,7 @@ Name of the generic secret to be created
 </td>
 <td valign="top">
 
-Base64 encoded value in the format <code>https://s3-<i class="varname">&lt;region&gt;</i>.amazonaws.com</code>
+Base64 encoded value in the format <code>https://s3.<i class="varname">&lt;region&gt;</i>.amazonaws.com</code>
 
 </td>
 </tr>
@@ -210,6 +210,10 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
 
 
 [Update a Generic Secret](update-a-generic-secret-b5d5970.md "")
+
+**Further Resources**
+
+[Amazon Simple Storage Service - Making requests using the REST API](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTAPI.html?utm_source=chatgpt.com)
 
 [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md "")
 
